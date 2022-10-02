@@ -28,3 +28,10 @@ function App() {
 }
 
 export default App;
+
+// JSX-03 What happens if the name variable is not passed to the function?
+// If name is not passed the name is not rendered in the browser.
+
+// JSX-04 What happens if the name variable contains a JSX expression instead of a string?
+// When using curly brackets {} we can include both Javascript code and JSX code
+// (that will be transpiled into JS code indeed).
