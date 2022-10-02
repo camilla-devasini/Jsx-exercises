@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+// Write a function that receives a name argument and returns a h1 tag
+// with the name variable appended to the "Hello, " string.
+
 function sayHello(name) {
-  return <h1>Hello {name}</h1>
+  return <h1>Hello, {name}</h1>
 }
 
 function App() {
